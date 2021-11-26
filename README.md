@@ -19,4 +19,5 @@ Actor: input = state ; output = action; Behaviour of learning the optimal policy
 Critic: input=  environment  and  action  by  actor;output  =  action  value  (Q-value)  .  Evaluates  actionby computing value function (Value based) 
 Q value= State value + Advantage value (How good actionis  compared  to  others  at  a  given  state).
 
+## Results
 
