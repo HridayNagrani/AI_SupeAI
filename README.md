@@ -5,6 +5,18 @@ The  finical  security  investment  market  is  tradi-tionally  dominated  by  t
 ![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/unknown.png)
 Different RL techniques were used while implimention. 
 ### DQN
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/A2C.jpg)
 
+DQN(Deep Q learning) is a reinforcement learn-ing algorithm that combines Q-Learning with deepneural  networks  thus  letting  RL  work  for  com-plex and high-dimensional environments, like videogames, or robotics.
 ### A2C
-  
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/DQN.jpg)
+
+A2C (Advantage Actor Critic) - Merger of Value based and Policy based techniques.
+A2C Model has 2 parts:
+a) Compute action based on state
+b) Produce Q values of action
+Actor: input = state ; output = action; Behaviour of learning the optimal policy (Policy Based)
+Critic: input=  environment  and  action  by  actor;output  =  action  value  (Q-value)  .  Evaluates  actionby computing value function (Value based) 
+Q value= State value + Advantage value (How good actionis  compared  to  others  at  a  given  state).
+
+
