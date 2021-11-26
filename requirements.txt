@@ -1,0 +1,10 @@
+numpy
+python_binance
+tensorflow
+pandas
+ta
+tensortrade
+matplotlib
+binance
+stable-baselines3
+gym==0.7.4
