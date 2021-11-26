@@ -21,3 +21,24 @@ Q value= State value + Advantage value (How good actionis  compared  to  others 
 
 ## Results
 
+Comparision Table for different models and datasets and tuning of window size.
+
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/table.png)
+
+Bitcoin,A2C,window_size=10
+
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/Result_1_dummy.jpg)
+
+Nifty-50,A2C,window_size=8
+
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/Result_2_1.jpg)
+
+Bitcoin,DQN,window_size=8
+
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/dqnBit.JPG)
+
+Nifty-50,DQN,window_size=8
+
+![Image](https://github.com/HridayNagrani/AI_SupeAI/blob/main/DQN.png)
+
+
